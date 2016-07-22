@@ -17,4 +17,9 @@ public class MissileController : MonoBehaviour {
 	void Update () {
 	
 	}
+
+    public void removeForce()
+    {
+        rigidBody.velocity = new Vector2(0, 0);
+    }
 }
