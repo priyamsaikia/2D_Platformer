@@ -15,6 +15,14 @@ public class PlayerController : MonoBehaviour {
     public float jumpHeight;
 
     //jump code end
+    //shoot missile code start
+    public Transform gunTip;
+    public GameObject missile;
+    public float fireRate;
+    float nextFirePeriod = 0;
+    //shoot missile code end
+
+
 
     // Use this for initialization
     void Start () {
@@ -26,7 +34,7 @@ public class PlayerController : MonoBehaviour {
         isGrounded = false;
         groundCheckRadius = 0.2f;
         //jump code end
-	}
+    }
     void Update()
     {
         //start jump code
@@ -37,6 +45,13 @@ public class PlayerController : MonoBehaviour {
             rigidBody.AddForce(new Vector2(0, jumpHeight));
         }
         //end jump code
+
+        //shoot missile code start
+        if (Input.GetAxisRaw("Fire1") > 0)
+        {
+            fireMissile();
+        }
+        //shoot missile code end
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -46,7 +61,8 @@ public class PlayerController : MonoBehaviour {
         animator.SetFloat("speed", Mathf.Abs(move));//change animation 
 
 
-            rigidBody.velocity = new Vector2(100*20, rigidBody.velocity.y);
+            rigidBody.velocity = new Vector2(move*maxSpeed, rigidBody.velocity.y);
+
 
             if (move > 0&& !facingRight)//D button , forward
             {
@@ -77,5 +93,21 @@ public class PlayerController : MonoBehaviour {
         flipScale.x *= -1;
         transform.localScale = flipScale;
 
+    }
+
+    void fireMissile()
+    {
+        if (Time.time > nextFirePeriod)
+        {
+            nextFirePeriod = Time.time + fireRate;
+            if (facingRight)
+            {
+                Instantiate(missile, gunTip.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            }
+            else
+            {
+                Instantiate(missile, gunTip.position, Quaternion.Euler(new Vector3(0, 0, 180)));
+            }
+        }
     }
 }
