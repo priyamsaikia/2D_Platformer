@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour {
         animator.SetFloat("speed", Mathf.Abs(move));//change animation 
 
 
-            rigidBody.velocity = new Vector2(move*maxSpeed, rigidBody.velocity.y);
+            rigidBody.velocity = new Vector2(100*20, rigidBody.velocity.y);
 
             if (move > 0&& !facingRight)//D button , forward
             {
