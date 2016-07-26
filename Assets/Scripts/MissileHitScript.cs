@@ -23,6 +23,11 @@ public class MissileHitScript : MonoBehaviour {
             missileController.removeForce();
             Instantiate(explosionEffect, transform.position, transform.rotation);
             Destroy(gameObject);
+            if (otherCollider.tag == "Enemy")
+            {
+                enemyHealth hurtEnemy = otherCollider.gameObject.GetComponent<enemyHealth>();
+                hurtEnemy.addDamage(weaponDamage);
+            }
         }
     }
 
@@ -33,6 +38,12 @@ public class MissileHitScript : MonoBehaviour {
             missileController.removeForce();
             Instantiate(explosionEffect, transform.position, transform.rotation);
             Destroy(gameObject);
+
+            if (otherCollider.tag == "Enemy")
+            {
+                enemyHealth hurtEnemy = otherCollider.gameObject.GetComponent<enemyHealth>();
+                hurtEnemy.addDamage(weaponDamage);
+            }
         }
     }
 }
