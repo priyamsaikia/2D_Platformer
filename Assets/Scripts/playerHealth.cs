@@ -2,11 +2,14 @@
 using System.Collections;
 
 public class playerHealth : MonoBehaviour {
-    public float currentHealt;
-    public float maxHealth;
+    float currentHealth;
+    public float fullHealth;
+    PlayerController controlMovement;
+    public GameObject deathFX;
     // Use this for initialization
     void Start () {
-	
+        currentHealth = fullHealth;
+        controlMovement = GetComponent<PlayerController>();
 	}
 	
 	// Update is called once per frame
@@ -14,12 +17,27 @@ public class playerHealth : MonoBehaviour {
 	
 	}
 
+    public void addDamage(float damage)
+    {
+        if (damage <= 0) return;
+        currentHealth -= damage;
+        if (currentHealth <= 0)
+            makeDead();
+    }
+
+    public void makeDead()
+    {
+        Instantiate(deathFX, transform.position, transform.rotation);
+        Destroy(gameObject);
+    }
+
+
     public void addHealth(float healthAmt)
     {
-        currentHealt += healthAmt;
-        if (currentHealt > maxHealth)
+        currentHealth += healthAmt;
+        if (currentHealth > fullHealth)
         {
-            currentHealt = maxHealth;
+            currentHealth = fullHealth;
         }
     }
 }
