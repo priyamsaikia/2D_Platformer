@@ -14,13 +14,19 @@ public class playerHealth : MonoBehaviour {
     Color damagedColor= new Color(0f, 0f, 0f, 0.5f);
     bool damaged = false;
     public Image damageScreen;
-   
+
+
+    //sound effects
+    public AudioClip playerHurt;
+    AudioSource playerAS;
     // Use this for initialization
     void Start () {
         currentHealth = fullHealth;
         controlMovement = GetComponent<PlayerController>();
         healthSlider.maxValue = fullHealth;
         healthSlider.value = fullHealth;
+
+        playerAS = GetComponent<AudioSource>();
       	}
 	
 	// Update is called once per frame
@@ -42,6 +48,9 @@ public class playerHealth : MonoBehaviour {
         currentHealth -= damage;
         healthSlider.value = currentHealth;
         damaged = true;
+
+        playerAS.clip = playerHurt;
+        playerAS.Play();
         
         if (currentHealth <= 0)
             makeDead();
