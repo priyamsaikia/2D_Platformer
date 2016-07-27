@@ -19,7 +19,7 @@ public class HealthPickup : MonoBehaviour {
         if (other.tag == "Player")
         {
             playerHealth theHealth = other.gameObject.GetComponent<playerHealth>();
-            theHealth.addHealth(healthAmt);
+         //   theHealth.addHealth(healthAmt);
             Destroy(gameObject);
         }
     }
