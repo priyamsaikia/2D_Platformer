@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\enemyHealth.cs" />
     <Compile Include="Assets\Scripts\enemyMovementController.cs" />
     <Compile Include="Assets\Scripts\playerHealth.cs" />
+    <Compile Include="Assets\healthPickUp.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

@@ -15,6 +15,8 @@ public class playerHealth : MonoBehaviour {
     bool damaged = false;
     public Image damageScreen;
 
+    public AudioClip playerDeathSound;
+
 
     //sound effects
     public AudioClip playerHurt;
@@ -60,6 +62,8 @@ public class playerHealth : MonoBehaviour {
     {
         Instantiate(deathFX, transform.position, transform.rotation);
         Destroy(gameObject);
+        AudioSource.PlayClipAtPoint(playerDeathSound, transform.position);
+        
         healthSlider.value = 0;
     }
 
@@ -73,4 +77,12 @@ public class playerHealth : MonoBehaviour {
         }
     }*/
 
+    public void addHealth(float healthAmout)
+    {
+        currentHealth += healthAmout;
+        if (currentHealth > fullHealth)
+            currentHealth = fullHealth;
+
+        healthSlider.value = currentHealth;
+    }
 }

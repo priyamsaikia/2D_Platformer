@@ -1,0 +1,591 @@
+fileFormatVersion: 2
+guid: 4f5a2408f08ff514a829b01a556f88ad
+timeCreated: 1469788608
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: background_tiles_0
+    21300002: background_tiles_1
+    21300004: background_tiles_2
+    21300006: background_tiles_3
+    21300008: background_tiles_4
+    21300010: background_tiles_5
+    21300012: background_tiles_6
+    21300014: background_tiles_7
+    21300016: background_tiles_8
+    21300018: background_tiles_9
+    21300020: background_tiles_10
+    21300022: background_tiles_11
+    21300024: background_tiles_12
+    21300026: background_tiles_13
+    21300028: background_tiles_14
+    21300030: background_tiles_15
+    21300032: background_tiles_16
+    21300034: background_tiles_17
+    21300036: background_tiles_18
+    21300038: background_tiles_19
+    21300040: background_tiles_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: background_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1396
+        width: 909
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -454.5, y: 308}
+        - {x: -454.5, y: -308}
+        - {x: 454.5, y: -308}
+        - {x: 454.5, y: 308}
+    - name: background_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1828
+        width: 909
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 257.5, y: -53.5}
+        - {x: 302.5, y: -47.5}
+        - {x: 309.5, y: -65.5}
+        - {x: 331.5, y: -65.5}
+        - {x: 351.5, y: -48.5}
+        - {x: 401.5, y: -59.5}
+        - {x: 432.5, y: -51.5}
+        - {x: 454.5, y: -33.5}
+        - {x: 454.5, y: 65.5}
+        - {x: -454.5, y: 65.5}
+        - {x: -454.5, y: -52.5}
+        - {x: -430.5, y: -65.5}
+        - {x: -399.5, y: -65.5}
+        - {x: -355.5, y: -29.5}
+        - {x: -352.5, y: -24.5}
+        - {x: -352.5, y: -18.5}
+        - {x: -352.5, y: -25.5}
+        - {x: -345.5, y: -29.5}
+        - {x: -326.5, y: -39.5}
+        - {x: -319.5, y: -41.5}
+        - {x: -316.5, y: -41.5}
+        - {x: -305.5, y: -48.5}
+        - {x: -220.5, y: -46.5}
+        - {x: -193.5, y: -62.5}
+        - {x: -136.5, y: -34.5}
+        - {x: -116.5, y: -16.5}
+        - {x: -96.5, y: -37.5}
+        - {x: -45.5, y: -57.5}
+        - {x: -43.5, y: -53.5}
+        - {x: -34.5, y: -62.5}
+        - {x: -12.5, y: -50.5}
+        - {x: 33.5, y: -51.5}
+        - {x: 41.5, y: -65.5}
+        - {x: 91.5, y: -65.5}
+        - {x: 124.5, y: -51.5}
+        - {x: 146.5, y: -10.5}
+        - {x: 195.5, y: -44.5}
+        - {x: 229.5, y: -53.5}
+    - name: background_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1616
+        width: 909
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: -58.5}
+        - {x: 111.5, y: -68.5}
+        - {x: 129.5, y: -29.5}
+        - {x: 152.5, y: -34.5}
+        - {x: 194.5, y: -61.5}
+        - {x: 262.5, y: -74.5}
+        - {x: 314.5, y: -62.5}
+        - {x: 330.5, y: -86.5}
+        - {x: 354.5, y: -53.5}
+        - {x: 388.5, y: -59.5}
+        - {x: 398.5, y: -58.5}
+        - {x: 409.5, y: -55.5}
+        - {x: 410.5, y: -53.5}
+        - {x: 413.5, y: -42.5}
+        - {x: 428.5, y: -62.5}
+        - {x: 454.5, y: -51.5}
+        - {x: 454.5, y: 87.5}
+        - {x: -454.5, y: 87.5}
+        - {x: -454.5, y: -62.5}
+        - {x: -428.5, y: -87.5}
+        - {x: -409.5, y: -87.5}
+        - {x: -345.5, y: -44.5}
+        - {x: -322.5, y: -56.5}
+        - {x: -303.5, y: -65.5}
+        - {x: -295.5, y: -61.5}
+        - {x: -284.5, y: -62.5}
+        - {x: -264.5, y: -69.5}
+        - {x: -223.5, y: -74.5}
+        - {x: -198.5, y: -87.5}
+        - {x: -188.5, y: -87.5}
+        - {x: -140.5, y: -60.5}
+        - {x: -98.5, y: -43.5}
+        - {x: -79.5, y: -59.5}
+        - {x: -42.5, y: -77.5}
+        - {x: -30.5, y: -67.5}
+        - {x: -27.5, y: -57.5}
+        - {x: -19.5, y: -65.5}
+        - {x: -13.5, y: -67.5}
+        - {x: -7.5, y: -60.5}
+        - {x: -3.5, y: -53.5}
+        - {x: 14.5, y: -61.5}
+        - {x: 34.5, y: -69.5}
+        - {x: 54.5, y: -87.5}
+        - {x: 66.5, y: -87.5}
+        - {x: 75.5, y: -72.5}
+        - {x: 76.5, y: -60.5}
+        - {x: 76.5, y: -48.5}
+    - name: background_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1356
+        width: 910
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 430, y: -39.5}
+        - {x: 455, y: -42.5}
+        - {x: 455, y: 81.5}
+        - {x: -455, y: 81.5}
+        - {x: -455, y: -44.5}
+        - {x: -453, y: -50.5}
+        - {x: -429, y: -61.5}
+        - {x: -389, y: -63.5}
+        - {x: -337, y: -55.5}
+        - {x: -325, y: -81.5}
+        - {x: -322, y: -81.5}
+        - {x: -294, y: -51.5}
+        - {x: -262, y: -53.5}
+        - {x: -251, y: -51.5}
+        - {x: -244, y: -50.5}
+        - {x: -238, y: -47.5}
+        - {x: -225, y: -49.5}
+        - {x: -176, y: -47.5}
+        - {x: -173, y: -41.5}
+        - {x: -148, y: -76.5}
+        - {x: -127, y: -48.5}
+        - {x: -92, y: -40.5}
+        - {x: -50, y: -61.5}
+        - {x: -36, y: -62.5}
+        - {x: -4, y: -60.5}
+        - {x: 7, y: -38.5}
+        - {x: 44, y: -58.5}
+        - {x: 48, y: -54.5}
+        - {x: 67, y: -79.5}
+        - {x: 86, y: -49.5}
+        - {x: 109, y: -49.5}
+        - {x: 147, y: -32.5}
+        - {x: 200, y: -69.5}
+        - {x: 247, y: -64.5}
+        - {x: 272, y: -57.5}
+        - {x: 293, y: -62.5}
+        - {x: 294, y: -53.5}
+        - {x: 294, y: -40.5}
+        - {x: 303, y: -62.5}
+        - {x: 315, y: -81.5}
+        - {x: 326, y: -81.5}
+        - {x: 343, y: -63.5}
+        - {x: 377, y: -50.5}
+        - {x: 416, y: -10.5}
+    - name: background_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 697
+        width: 246
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 94.5}
+        - {x: 123, y: 238.5}
+        - {x: 123, y: 278.5}
+        - {x: 117, y: 278.5}
+        - {x: 105, y: 258.5}
+        - {x: 47, y: 278.5}
+        - {x: 38, y: 278.5}
+        - {x: 33, y: 271.5}
+        - {x: 34, y: 269.5}
+        - {x: 16, y: 278.5}
+        - {x: -89, y: 278.5}
+        - {x: -115, y: 271.5}
+        - {x: -123, y: 264.5}
+        - {x: -123, y: 169.5}
+        - {x: -9, y: -277.5}
+        - {x: -1, y: -278.5}
+        - {x: 70, y: -278.5}
+        - {x: 69, y: -243.5}
+        - {x: 67, y: -220.5}
+        - {x: 60, y: -101.5}
+    - name: background_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 734
+        width: 247
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 19.5}
+        - {x: 104.5, y: 91.5}
+        - {x: 123.5, y: 186.5}
+        - {x: 123.5, y: 262.5}
+        - {x: 115.5, y: 262.5}
+        - {x: 20.5, y: 250.5}
+        - {x: 6.5, y: 262.5}
+        - {x: -87.5, y: 262.5}
+        - {x: -120.5, y: 245.5}
+        - {x: -123.5, y: 246.5}
+        - {x: -123.5, y: -16.5}
+        - {x: -88.5, y: -262.5}
+        - {x: 25.5, y: -262.5}
+        - {x: 29.5, y: -261.5}
+        - {x: 34.5, y: -258.5}
+        - {x: 26.5, y: -236.5}
+    - name: background_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 746
+        width: 198
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 271}
+        - {x: 10, y: 241}
+        - {x: -6, y: 261}
+        - {x: -39, y: 135}
+        - {x: -99, y: 149}
+        - {x: -99, y: 51}
+        - {x: -21, y: -3}
+        - {x: -38, y: -207}
+        - {x: -19, y: -271}
+        - {x: 67, y: -271}
+        - {x: 49, y: 11}
+        - {x: 99, y: 55}
+        - {x: 99, y: 271}
+    - name: background_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 729
+        width: 169
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.5, y: 278}
+        - {x: -21.5, y: 278}
+        - {x: -38.5, y: 270}
+        - {x: -78.5, y: 273}
+        - {x: -84.5, y: 273}
+        - {x: -84.5, y: 180}
+        - {x: -80.5, y: 123}
+        - {x: -41.5, y: -278}
+        - {x: 22.5, y: -278}
+        - {x: 17.5, y: 25}
+        - {x: 76.5, y: 117}
+        - {x: 84.5, y: 152}
+    - name: background_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 742
+        width: 245
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 107.5, y: 255.5}
+        - {x: 97.5, y: 192.5}
+        - {x: 75.5, y: 245.5}
+        - {x: 68.5, y: 251.5}
+        - {x: 55.5, y: 248.5}
+        - {x: 48.5, y: 233.5}
+        - {x: -2.5, y: 249.5}
+        - {x: -31.5, y: 254.5}
+        - {x: -32.5, y: 255.5}
+        - {x: -122.5, y: 255.5}
+        - {x: -122.5, y: -166.5}
+        - {x: -113.5, y: -255.5}
+        - {x: 24.5, y: -255.5}
+        - {x: 28.5, y: -228.5}
+        - {x: 122.5, y: 43.5}
+        - {x: 122.5, y: 255.5}
+    - name: background_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 719
+        width: 249
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 124.5, y: 278.5}
+        - {x: 118.5, y: 278.5}
+        - {x: 113.5, y: 260.5}
+        - {x: 81.5, y: 278.5}
+        - {x: -21.5, y: 278.5}
+        - {x: -20.5, y: 252.5}
+        - {x: -25.5, y: 268.5}
+        - {x: -33.5, y: 266.5}
+        - {x: -124.5, y: 268.5}
+        - {x: -124.5, y: 249.5}
+        - {x: -6.5, y: -118.5}
+        - {x: -8.5, y: -278.5}
+        - {x: 76.5, y: -278.5}
+        - {x: 58.5, y: -15.5}
+        - {x: 109.5, y: 123.5}
+        - {x: 124.5, y: 235.5}
+    - name: background_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 566
+        width: 987
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 24}
+        - {x: -85.5, y: 16}
+        - {x: -114.5, y: 24}
+        - {x: -373.5, y: 24}
+        - {x: -404.5, y: 23}
+        - {x: -493.5, y: 23}
+        - {x: -493.5, y: -6}
+        - {x: -486.5, y: -24}
+        - {x: 493.5, y: -24}
+        - {x: 493.5, y: 4}
+        - {x: 483.5, y: 24}
+    - name: background_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 34
+        width: 105
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: 301}
+        - {x: 6.5, y: 124}
+        - {x: 6.5, y: 121}
+        - {x: 5.5, y: 120}
+        - {x: 6.5, y: 122}
+        - {x: 8.5, y: 166}
+        - {x: 24.5, y: 296}
+        - {x: 24.5, y: 301}
+        - {x: -52.5, y: 301}
+        - {x: -52.5, y: -53}
+        - {x: -27.5, y: -301}
+        - {x: 14.5, y: -301}
+        - {x: 21.5, y: -299}
+        - {x: 52.5, y: 194}
+        - {x: 52.5, y: 301}
+    - name: background_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 58
+        width: 143
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.5, y: 278.5}
+        - {x: 61.5, y: 253.5}
+        - {x: 27.5, y: 277.5}
+        - {x: 19.5, y: 275.5}
+        - {x: 18.5, y: 267.5}
+        - {x: 13.5, y: 270.5}
+        - {x: -6.5, y: 265.5}
+        - {x: -8.5, y: 247.5}
+        - {x: -10.5, y: 258.5}
+        - {x: -14.5, y: 267.5}
+        - {x: -21.5, y: 264.5}
+        - {x: -61.5, y: 274.5}
+        - {x: -71.5, y: 272.5}
+        - {x: -71.5, y: 170.5}
+        - {x: -6.5, y: -277.5}
+        - {x: -3.5, y: -278.5}
+        - {x: 42.5, y: -278.5}
+        - {x: 71.5, y: 134.5}
+        - {x: 71.5, y: 278.5}
+    - name: background_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 528
+        width: 172
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: background_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 521
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: background_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 509
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: background_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 508
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: background_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 252
+        width: 910
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -455, y: 99}
+        - {x: -455, y: -99}
+        - {x: 455, y: -99}
+        - {x: 455, y: 99}
+    - name: background_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 418
+        width: 80
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: background_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 240
+        width: 80
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: background_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 97
+        width: 276
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116, y: 28.5}
+        - {x: -138, y: 10.5}
+        - {x: -138, y: -27.5}
+        - {x: -135, y: -28.5}
+        - {x: 138, y: -28.5}
+        - {x: 138, y: 22.5}
+        - {x: 124, y: 28.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
