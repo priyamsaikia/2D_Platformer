@@ -17,6 +17,7 @@ public class playerHealth : MonoBehaviour {
 
     public AudioClip playerDeathSound;
     public Text gameOverText;
+    public Text gameWinText;
 
 
     //sound effects
@@ -93,5 +94,14 @@ public class playerHealth : MonoBehaviour {
             currentHealth = fullHealth;
 
         healthSlider.value = currentHealth;
+    }
+
+
+    public void WinGame()
+    {
+        Destroy(gameObject);
+        restartGame.RestartTheGame();
+        Animator winGameAnimator = gameWinText.GetComponent<Animator>();
+        winGameAnimator.SetTrigger("gameOver");
     }
 }
