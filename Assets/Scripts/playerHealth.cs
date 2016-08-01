@@ -16,11 +16,15 @@ public class playerHealth : MonoBehaviour {
     public Image damageScreen;
 
     public AudioClip playerDeathSound;
+    public Text gameOverText;
 
 
     //sound effects
     public AudioClip playerHurt;
     AudioSource playerAS;
+
+    public RestartGame restartGame;
+    
     // Use this for initialization
     void Start () {
         currentHealth = fullHealth;
@@ -65,6 +69,11 @@ public class playerHealth : MonoBehaviour {
         AudioSource.PlayClipAtPoint(playerDeathSound, transform.position);
         
         healthSlider.value = 0;
+
+        damageScreen.color = damagedColor;
+        Animator gameOverAnimator = gameOverText.GetComponent<Animator>();
+        gameOverAnimator.SetTrigger("gameOver");
+        restartGame.RestartTheGame();
     }
 
 
