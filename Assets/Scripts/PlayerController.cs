@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityStandardAssets.CrossPlatformInput;
 public class PlayerController : MonoBehaviour {
     public float maxSpeed;
     Rigidbody2D rigidBody;
@@ -22,6 +22,10 @@ public class PlayerController : MonoBehaviour {
     float nextFirePeriod = 0;
     //shoot missile code end
 
+    //touch start code
+    private Vector2 touchOrigin = -Vector2.one;
+    //touch end code
+
 
 
     // Use this for initialization
@@ -38,7 +42,7 @@ public class PlayerController : MonoBehaviour {
     void Update()
     {
         //start jump code
-        if (isGrounded && Input.GetAxis("Jump") > 0)
+        if (isGrounded && CrossPlatformInputManager.GetAxis("Vertical") > 0)
         {
             isGrounded = false;
             animator.SetBool("isGrounded", isGrounded);
@@ -47,17 +51,42 @@ public class PlayerController : MonoBehaviour {
         //end jump code
 
         //shoot missile code start
-        if (Input.GetAxisRaw("Fire1") > 0)
+        if (CrossPlatformInputManager.GetButtonDown("Jump"))
         {
             fireMissile();
         }
         //shoot missile code end
-    }
+
+
+            }
     // Update is called once per frame
     void FixedUpdate()
     {
      
-        float move = Input.GetAxis("Horizontal");
+        float move = CrossPlatformInputManager.GetAxis("Horizontal");
+
+        //touch start code
+      /*  if (CrossPlatformInputManager.touchCount > 0)
+        {
+            Touch myTouch = Input.touches[0];
+            if (myTouch.phase == TouchPhase.Began)
+            {
+                touchOrigin = myTouch.position;
+            }
+            else if (myTouch.phase == TouchPhase.Ended && touchOrigin.x >= 0)
+            {
+                Vector2 touchEnd = myTouch.position;
+                float x = touchEnd.x - touchOrigin.x;
+                float y = touchEnd.y - touchOrigin.y;
+                touchOrigin.x = -1;
+                //if (Mathf.Abs(x) > Mathf.Abs(y))
+                {
+                    move = x > 0 ? 1 : -1;
+                }
+
+            }
+        }*/
+
         animator.SetFloat("speed", Mathf.Abs(move));//change animation 
 
 
@@ -81,6 +110,10 @@ public class PlayerController : MonoBehaviour {
         animator.SetFloat("verticalSpeed", rigidBody.velocity.y);
 
         //end jump code
+
+
+
+        
 
         
     }
